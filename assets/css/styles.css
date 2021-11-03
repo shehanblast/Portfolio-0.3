@@ -362,6 +362,16 @@ header{
     background-color: transparent;
     color: var(--first-color-alt);
 }
+
+.button--white{
+    background-color: white;
+    color: var(--first-color);
+}
+
+.button--white:hover{
+    background-color: black;
+    color: white;
+}
 /*==================== ABOUT ====================*/
 .about__img{
     width: 100%;
@@ -765,7 +775,33 @@ header{
 
 /*==================== PROJECT IN MIND ====================*/
 
+.project{
+    text-align: center;
+}
 
+.project__bg{
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.project__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project__description{
+    margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description{
+    color: white;
+}
+
+.project__img{
+    justify-self: center;
+    width: 232px;
+}
 /*==================== TESTIMONIAL ====================*/
 
 
