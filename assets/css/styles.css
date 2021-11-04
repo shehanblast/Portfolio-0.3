@@ -520,27 +520,35 @@ header{
 }
 
 .skills__react{
-    width: 85%;
+    width: 75%;
+}
+
+.skills__angular{
+    width: 65%;
 }
 
 .skills__php{
-    width: 90%;
-}
-
-.skills__node{
-    width: 80%;
-}
-
-.skills__firebase{
     width: 60%;
 }
 
-.skills__python{
+.skills__node{
+    width: 75%;
+}
+
+.skills__mongo{
+    width: 70%;
+}
+
+.skills__express{
     width: 85%;
 }
 
+.skills__mysql{
+    width: 75%;
+}
+
 .skills__figma{
-    width: 90%;
+    width: 75%;
 }
 
 .skills__sketch{
@@ -548,6 +556,18 @@ header{
 }
 
 .skills__photoshop{
+    width: 60%;
+}
+
+.skills__java{
+    width: 80%;
+}
+
+.skills__fire{
+    width: 70%;
+}
+
+.skills__lite{
     width: 60%;
 }
 
@@ -857,6 +877,11 @@ header{
 
 .testimonial__client{
     font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+}
+
+.testimonial__client2{
+    font-size: 9px;
     color: var(--text-color-light);
 }
 
