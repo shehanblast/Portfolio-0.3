@@ -195,3 +195,11 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== Auto typing ====================*/
+var typed = new Typed('.type', {
+    strings: ['Web Developer', 'Software Engineer','Blogger','Content Creator','Programmer'],
+    typeSpeed:100,
+    backSpeed:70,
+    loop:true,
+});
