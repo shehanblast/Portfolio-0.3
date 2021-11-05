@@ -571,6 +571,10 @@ header{
     width: 60%;
 }
 
+.skills__spring{
+    width: 75%;
+}
+
 .skills__close .skills__list{
     height: 0;
     overflow: hidden;
@@ -1107,3 +1111,19 @@ header{
 
 
 /* For large devices */
+
+
+
+
+
+
+
+
+
+
+
+
+.animated{
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
