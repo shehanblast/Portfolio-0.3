@@ -165,6 +165,15 @@ function scrollUp(){
 }
 window.addEventListener('scroll', scrollUp)
 
+
+
+function scrollUpp(){
+    const scrollUp = document.getElementById('scroll-upp');
+    // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
+    if(this.scrollY >= 250) scrollUp.classList.remove('show-scrolll'); else scrollUp.classList.add('show-scrolll')
+}
+window.addEventListener('scroll', scrollUpp)
+
 /*==================== DARK LIGHT THEME ====================*/
 
 const themeButton = document.getElementById('theme-button')
@@ -174,6 +183,7 @@ const iconTheme = 'uil-sun'
 // Previously selected topic (if user selected)
 const selectedTheme = localStorage.getItem('selected-theme')
 const selectedIcon = localStorage.getItem('selected-icon')
+const mode = document.getElementById('btn')
 
 // We obtain the current theme that the interface has by validating the dark-theme class
 const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
@@ -194,7 +204,16 @@ themeButton.addEventListener('click', () => {
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
+    if (selectedTheme === 'light'){
+        document.getElementById("ll").innerHTML = 'Dark mode';
+    }
+else if (selectedTheme === 'dark') {
+        document.getElementById("ll").innerHTML = 'Light mode';
+    }
+
 })
+
+
 
 /*==================== Auto typing ====================*/
 var typed = new Typed('.type', {
@@ -212,3 +231,16 @@ $(function () {
     new WOW().init();
 
 });
+
+/* ========================================================
+                       stats
+  ========================================================*/
+
+$(function () {
+
+    $(".counter").counterUp({
+        delay: 10,
+        time: 2000
+    });
+});
+
