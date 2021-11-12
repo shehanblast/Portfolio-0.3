@@ -1,4 +1,5 @@
-# Responsive Portfolio Website
+# Welcome to my Portfolio Website
 ## Binuka Sihan
 
-Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful user interface. It contains a Header, Home, About, Skills, Qualification, Services, Portfolio, Project in mind, Testimonial, Contact and Footer.
+This Website contains information about my self,skills,Completed projects,etc..
+This is a fully Responsive Portfolio Website built Using Html, Css and JavaScript.
